@@ -1,0 +1,18 @@
+.nav.projects li {
+	width: 24%;
+	text-align: center;
+}
+.table-hover th,.table-hover td{
+	text-align: center;
+}
+#tab-1 .panel-body tr td{
+	width:24%;
+}
+#tab-1 .panel-body tr td .upload,#tab-1 .panel-body tr td .download{
+	padding: 5px 10px;
+	color: #fff;
+	background-color: #005ab5;
+}
+#tab-2 .panel-body tr td label,#tab-3 .panel-body tr td label,#tab-4 .panel-body tr td label{
+	margin: 0px 5%;
+}
