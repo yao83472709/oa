@@ -1,7 +1,7 @@
 @extends('default.layouts.master')
 @section('title', '艾邦视觉_登录')
 @section('self_head')
-<link href="/css/login.css" rel="stylesheet">
+<link href="{{ URL::asset('/css/login.css') }}" rel="stylesheet">
 <script>
     if (window.top !== window.self) {
         window.top.location = window.location;
@@ -50,7 +50,7 @@
 @endsection
 
 @section('self_js')
-    <script src="/js/plugins/layer/layer.min.js"></script>
+    <script src="{{ URL::asset('/js/plugins/layer/layer.min.js') }}"></script>
     <script type="text/javascript">
 
       @if ($errors->has('username'))
